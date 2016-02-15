@@ -7,7 +7,7 @@ This is a utility for binding actions in redux. The only difference is the way y
 ###Create actions.config.js
 
 In the root of your project
-```
+```js
 export const todos = require('./todos/actions')
 export const posts = require('./posts/actions')
 ```
@@ -16,7 +16,7 @@ This file has a list of your different actions. This helps organize where things
 
 ###Inject some actions!
 
-```
+```js
 import { actions } from 'legit-actions'
 
 const Todos = ({ dispatch, items, newItem }) => (
