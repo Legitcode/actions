@@ -2,7 +2,7 @@
 
 ###WIP
 
-This is a utility for binding actions in redux. The only difference is the way you setup actions.
+This is a utility for injecting actions in redux. The idea came from having a huge project with actions all over the place. What if we treated actions like routes and made a file with a list of them?
 
 ###Create actions.config.js
 
