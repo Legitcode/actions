@@ -1,10 +1,10 @@
-##legit actions
+## legit actions
 
-###WIP
+### WIP
 
 This is a utility for injecting actions in redux. The idea came from having a huge project with actions all over the place. What if we treated actions like routes and made a file with a list of them?
 
-###Create actions.config.js
+### Create actions.config.js
 
 In the root of your project
 ```js
@@ -14,7 +14,7 @@ export const posts = require('./posts/actions')
 
 This file has a list of your different actions. This helps organize where things are in your project.
 
-###Inject some actions!
+### Inject some actions!
 
 ```js
 import { actions } from 'legit-actions'
